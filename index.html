@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+    }
+    .logo{
+        height: 40px;
+        width: 40px;
+   background-image: url(/download.png);
+   background-position: center;
+   background-size: cover;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        justify-content: space-around;
+        padding: 10px 0px;
+      
+    }
+    ul{
+        display: flex;
+        gap: 12px;
+
+    }
+    ul li a{
+        display: inline-block;
+        font-size: 20px;
+        padding: 12px 10px;
+        font-weight: bold;
+
+color: white;
+
+
+    }
+  li:hover ,a:hover{
+        background: black;
+        color: green;
+    }
+    header button{
+        padding: 12px 22px;
+        border: none;
+        background-color: yellow;
+        color: white;
+        font-weight: bold;
+        border-radius: 12px;
+        outline: none;
+        transition: ease-in 0.3s;
+        text-transform: uppercase;
+        background: rgb(2,0,36);
+
+        border: 1px solid white;
+    }
+    main #btn{
+        padding: 12px 22px;
+        border: none;
+        /* background-color: yellow; */
+        color: white;
+        font-weight: bold;
+        border-radius: 12px;
+        outline: none;
+        transition: ease-in 0.3s;
+        text-transform: uppercase;
+        border: 1px solid white;
+        background: rgb(2,0,36);
+      
+    }
+    header button:hover  {
+    
+        background-color: rgba(255, 31, 31, 0.171);
+
+ font-weight: bold;
+    }
+     #btn:hover{
+background-color: rgba(255, 31, 31, 0.171);
+    }
+
+
+    /* ======================================================
+                    main-section
+       =====================================================              */
+       .home-page{
+background: url(/levi-stute-eyXHWe7OcFw-unsplash.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+
+       }
+       main{
+        height: 92vh;
+  max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+       }
+    
+       main h1{
+        color: white;
+        font-size: 30px;
+        
+       }
+       main p{
+        color: white;
+        font-size: 22px;
+       }
+
+       /* =====================================
+                    about-section
+        ======================================== */
+        .about{
+            height: 100vh;
+            background-color: #27242415;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .about .about-left{
+
+        }
+        .about .about-left h1{
+            font-size: 30px;
+            font-style: bold;
+            margin-bottom: 12px;
+            font-weight:bold;
+        }
+        .about .about-left p{
+            font-size: 22px;
+            
+            font-weight:bold;
+        }
+        .about .about-right{
+            background-image: url(charlie-green-3JmfENcL24M-unsplash.jpg);
+            background-position: center;
+            background-size: cover;
+         height: 60%;
+         width: 40%;
+        }
+</style>
+<body>
+  <section class="home-page">
+
+
+    <header>
+        <div class="logo">
+            <img src="" alt="">
+        </div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Blog</a></li>
+        </ul>
+        <button>Login</button>
+    </header>
+    <main>
+        <h1>This is me Saaqi developer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque modi aliquam aspernatur!</p>
+        <button id="btn">Click CV</button>
+    </main>
+</section>
+    <!-- about section -->
+    <section class="about">
+        <div class="about-left">
+            <h1>Lorem, ipsum.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="about-right">
+        </div>
+    </section>
+</body>
+</html>
